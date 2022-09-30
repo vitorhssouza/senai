@@ -13,6 +13,9 @@ module.exports = class Aluno{
     maior(){
         return this.idade >= 18;
     }
-    
+
+    aprovado(){
+        return this.nota >= 6;
+    }
 
 }
