@@ -4,6 +4,7 @@ module.exports = class Cliente{
         this.idade = idade
         this.email = email
         this.endereco = endereco
+        this.data_cadastro = new Date()
     }
 
 }
